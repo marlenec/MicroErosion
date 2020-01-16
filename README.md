@@ -5,8 +5,8 @@ a metacommunity (gamma-diversity) due to the disappearance of local patches, bas
 
 ## Requirements
 * R version 3.6.0 or higher. Former versions of R might cause problems with entropart and ape packages and their dependencies;
-* Entropart R-package  version 1.6-1 or higher, and its dependencies [CRAN page](https://CRAN.R-project.org/package=entropart);
-* ape R-package version 5.3 or higher, and its dependencies  [CRAN page](https://CRAN.R-project.org/package=ape).
+* [Entropart](https://CRAN.R-project.org/package=entropart) R-package  version 1.6-1 or higher, and its dependencies;
+* [ape](https://CRAN.R-project.org/package=ape) R-package version 5.3 or higher, and its dependencies.
 
 ## Input
 
@@ -39,8 +39,8 @@ A list, containing 3 objects:
 * **$Patches_Removed**: Matrix containing the name of the patches removed at each step of erosion scenario. Rows and columns are as in $Gamma_diversity.
 
 > **Notes**:  
-> Diversity and entropy indices are computed using `Tsallis()` and `ChaoPD()` functions provided in entropart R-package (https://cran.r-project.org/web/packages/entropart/index.html).
-> Please note that computing phylogenetic diversity indices could be time consuming (e.g. for a tree with 5000 species, 2.5s per local assemblage (i.e. per step of erosion and per replicate) using a 2.2 GHz Intel Core i7).
+> Diversity and entropy indices are computed using `Tsallis()` and `ChaoPD()` functions provided in [entropart](https://cran.r-project.org/web/packages/entropart/index.html) R-package.
+> Please note that computing phylogenetic diversity indices could be time consuming (e.g. for a tree with 5000 species, 2.5s per local assemblage (*i.e.* per step of erosion and per replicate) using a 2.2 GHz Intel Core i7).
 
 
 
